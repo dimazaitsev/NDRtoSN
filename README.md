@@ -8,7 +8,9 @@ Compatibility:
 
 NDR file format according to https://projects.laas.fr/tina/index.php
 
-LSN file format according to 
+LSN file format according to https://github.com/zhangq9919/Sleptsov-net-processor
+
+HSN file format according to https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
 
 
 Command line format: 
