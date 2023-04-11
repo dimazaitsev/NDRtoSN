@@ -37,11 +37,17 @@ Transition substitution label
 *HSN(snname i hpname lpnum ... o hpname lpnum ... s pname lpnum f hpname lpnum)
 
 "*HSN" - prefix of HSN label, should be at the beginning of the label
+
 "(" - begin of specification
+
 ")" - end of specification
+
 snname - name of subnet
+
 i,o,s,f - labels of place type for place mapping: input, otput, start, finish, respectively
+
 hpname - name of HSN place
+
 lpnum - number of LSN place
    
    
