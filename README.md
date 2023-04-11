@@ -8,23 +8,41 @@ Compatibility:
 
 NDR file format according to https://projects.laas.fr/tina/index.php
 
-LSN file format according to https://github.com/zhangq9919/Sleptsov-net-processor
+LSN file format v1.2 according to https://github.com/zhangq9919/Sleptsov-net-processor
 
-HSN file format according to https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
+HSN file format v1.2 according to https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
 
 
 Command line format: 
 -------------------- 
 
-   >NDRtoLSN NDR_file_name LSN_file_name 
+   >NDRtoSN NDR_file_name LSN_file_name 
+   
+   >NDRtoSN NDR_file_name HSN_file_name 
+   
+File type HSN/LSN is chosen based on the presence of transition substitution labels.
    
    
 Examples of command lines: 
 -------------------------- 
 
-   >NDRtoLSN fmul.ndr fmul.lsn
+   >NDRtoSN fmul.ndr fmul.lsn
    
-   >NDRtoLSN fdiv.ndr fdiv.lsn
+   >NDRtoSN add2.ndr add2.hsn
+  
+  
+Transition substitution label
+-----------------------------
+
+*HSN(snname i hpname lpnum ... o hpname lpnum ... s pname lpnum f hpname lpnum)
+
+"*HSN" - prefix of HSN label, should be at the beginning of the label
+"(" - begin of specification
+")" - end of specification
+snname - name of subnet
+i,o,s,f - labels of place type for place mapping: input, otput, start, finish, respectively
+hpname - name of HSN place
+lpnum - number of LSN place
    
    
 References: 
