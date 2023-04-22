@@ -4,7 +4,7 @@
 
 
 How to use `NDRtoSN` as a part of experimental `SNC IDE&VM`:
---------------------------------------------------------
+------------------------------------------------------------
 
 We list references to other components in "Compatibility" section.
 
@@ -21,6 +21,8 @@ Compatibility:
 -------------- 
 
 `Tina`, `nd`, and `NDR` file format according to https://projects.laas.fr/tina/index.php
+
+`NDRtoSN` and transition substitution labels according to https://github.com/dazeorgacm/NDRtoSN
 
 `SN-VM` and `LSN` file format according to https://github.com/zhangq9919/Sleptsov-net-processor
 
