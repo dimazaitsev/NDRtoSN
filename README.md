@@ -6,7 +6,7 @@
 How to use `NDRtoSN` as a part of experimental `SNC IDE&VM`:
 ------------------------------------------------------------
 
-We list references to other components in "Compatibility" section.
+We list references to components in "Compatibility" section.
 
 1) Use `Tina` `nd` as graphical editor and its labels with special syntax (section "Transition substitution label") to specify transition substitution of `HSN`.
 
