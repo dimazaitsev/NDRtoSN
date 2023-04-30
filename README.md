@@ -30,6 +30,8 @@ Compatibility:
 
 `SN-VM-GPU` and `MSN` file format according to https://github.com/tishtri/SN-VM-GPU
 
+To build `NDRtoSN`, files for work with abstract lists al.h and al.c should be downloaded from https://github.com/dazeorgacm/ts
+
 
 Command line format: 
 -------------------- 
