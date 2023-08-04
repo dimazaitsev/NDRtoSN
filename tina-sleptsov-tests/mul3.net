@@ -1,0 +1,173 @@
+tr t0 p13?-1 p16 -> p13 
+tr t1 p37?-1 p40 -> p37 
+tr t2 p61?-1 p64 -> p61 
+tr t3 p12?-1 p13?-1 p17 -> p13 
+tr t4 p11 p17?-1 -> 
+tr t5 p15 p17?-1 -> p17 
+tr t6 p12*2 p16?-1 -> p18 
+tr t7 p16?-1 p19 -> p16 
+tr t8 p12 p19?-1 p21 -> p20 
+tr t9 p19?-1 p22 -> p19 
+tr t10 p11 p21?-1 p22?-1 -> p14 p23 
+tr t11 p11 p20?-1 p22?-1 -> p23 
+tr t12 p22?-1 p24 -> p22 
+tr t13 p18 p24?-1 -> p12 
+tr t14 p24?-1 p25 -> p24 
+tr t15 p23 p25?-1 -> p11*2 
+tr t16 p13 p20 p21?-1 p25?-1 -> p21 p25 
+tr t17 p13 p20?-1 p25?-1 -> p25 
+tr t18 p4 p27?-1 -> p11 p26 
+tr t19 p26 p28?-1 -> p4 
+tr t20 p4?-1 p27?-1 p28 -> p27 
+tr t21 p26?-1 p28?-1 p29 -> p28 
+tr t22 p5 p31?-1 -> p12 p30 
+tr t23 p30 p32?-1 -> p5 
+tr t24 p5?-1 p31?-1 p32 -> p31 
+tr t25 p30?-1 p32?-1 p33 -> p32 
+tr t26 p0?-1 p27 p31 -> p0 
+tr t27 p13 p29?-1 p33?-1 -> p29 p33 
+tr t28 p14 p34?-1 -> p6 
+tr t29 p6 p15?-1 -> 
+tr t30 p6?-1 p15?-1 p34 -> p15 
+tr t31 p1 p14?-1 p34?-1 -> p34 
+tr t32 p36?-1 p37?-1 p41 -> p37 
+tr t33 p35 p41?-1 -> 
+tr t34 p39 p41?-1 -> p41 
+tr t35 p36*2 p40?-1 -> p42 
+tr t36 p40?-1 p43 -> p40 
+tr t37 p36 p43?-1 p45 -> p44 
+tr t38 p43?-1 p46 -> p43 
+tr t39 p35 p45?-1 p46?-1 -> p38 p47 
+tr t40 p35 p44?-1 p46?-1 -> p47 
+tr t41 p46?-1 p48 -> p46 
+tr t42 p42 p48?-1 -> p36 
+tr t43 p48?-1 p49 -> p48 
+tr t44 p47 p49?-1 -> p35*2 
+tr t45 p37 p44 p45?-1 p49?-1 -> p45 p49 
+tr t46 p37 p44?-1 p49?-1 -> p49 
+tr t47 p6 p51?-1 -> p35 p50 
+tr t48 p50 p52?-1 -> p6 
+tr t49 p6?-1 p51?-1 p52 -> p51 
+tr t50 p50?-1 p52?-1 p53 -> p52 
+tr t51 p7 p55?-1 -> p36 p54 
+tr t52 p54 p56?-1 -> p7 
+tr t53 p7?-1 p55?-1 p56 -> p55 
+tr t54 p54?-1 p56?-1 p57 -> p56 
+tr t55 p1?-1 p51 p55 -> p1 
+tr t56 p37 p53?-1 p57?-1 -> p53 p57 
+tr t57 p38 p58?-1 -> p8 
+tr t58 p8 p39?-1 -> 
+tr t59 p8?-1 p39?-1 p58 -> p39 
+tr t60 p2 p38?-1 p58?-1 -> p58 
+tr t61 p60?-1 p61?-1 p65 -> p61 
+tr t62 p59 p65?-1 -> 
+tr t63 p63 p65?-1 -> p65 
+tr t64 p60*2 p64?-1 -> p66 
+tr t65 p64?-1 p67 -> p64 
+tr t66 p60 p67?-1 p69 -> p68 
+tr t67 p67?-1 p70 -> p67 
+tr t68 p59 p69?-1 p70?-1 -> p62 p71 
+tr t69 p59 p68?-1 p70?-1 -> p71 
+tr t70 p70?-1 p72 -> p70 
+tr t71 p66 p72?-1 -> p60 
+tr t72 p72?-1 p73 -> p72 
+tr t73 p71 p73?-1 -> p59*2 
+tr t74 p61 p68 p69?-1 p73?-1 -> p69 p73 
+tr t75 p61 p68?-1 p73?-1 -> p73 
+tr t76 p8 p75?-1 -> p59 p74 
+tr t77 p74 p76?-1 -> p8 
+tr t78 p8?-1 p75?-1 p76 -> p75 
+tr t79 p74?-1 p76?-1 p77 -> p76 
+tr t80 p9 p79?-1 -> p60 p78 
+tr t81 p78 p80?-1 -> p9 
+tr t82 p9?-1 p79?-1 p80 -> p79 
+tr t83 p78?-1 p80?-1 p81 -> p80 
+tr t84 p2?-1 p75 p79 -> p2 
+tr t85 p61 p77?-1 p81?-1 -> p77 p81 
+tr t86 p62 p82?-1 -> p10 
+tr t87 p10 p63?-1 -> 
+tr t88 p10?-1 p63?-1 p82 -> p63 
+tr t89 p3 p62?-1 p82?-1 -> p82 
+pl p1 (1)
+pl p2 (1)
+pl p3 (1)
+pl p4 (2)
+pl p5 (8)
+pl p7 (5)
+pl p9 (1)
+pl p13 (1)
+pl p15 (1)
+pl p16 (1)
+pl p17 (1)
+pl p19 (1)
+pl p21 (1)
+pl p22 (1)
+pl p24 (1)
+pl p25 (1)
+pl p27 (1)
+pl p28 (1)
+pl p29 (1)
+pl p31 (1)
+pl p32 (1)
+pl p33 (1)
+pl p34 (1)
+pl p37 (1)
+pl p39 (1)
+pl p40 (1)
+pl p41 (1)
+pl p43 (1)
+pl p45 (1)
+pl p46 (1)
+pl p48 (1)
+pl p49 (1)
+pl p51 (1)
+pl p52 (1)
+pl p53 (1)
+pl p55 (1)
+pl p56 (1)
+pl p57 (1)
+pl p58 (1)
+pl p61 (1)
+pl p63 (1)
+pl p64 (1)
+pl p65 (1)
+pl p67 (1)
+pl p69 (1)
+pl p70 (1)
+pl p72 (1)
+pl p73 (1)
+pl p75 (1)
+pl p76 (1)
+pl p77 (1)
+pl p79 (1)
+pl p80 (1)
+pl p81 (1)
+pl p82 (1)
+pr t3 > t0
+pr t4 > t5
+pr t6 > t7
+pr t8 > t9
+pr t10 > t12
+pr t11 > t12
+pr t13 > t14
+pr t15 > t16
+pr t15 > t17
+pr t32 > t1
+pr t33 > t34
+pr t35 > t36
+pr t37 > t38
+pr t39 > t41
+pr t40 > t41
+pr t42 > t43
+pr t44 > t45
+pr t44 > t46
+pr t61 > t2
+pr t62 > t63
+pr t64 > t65
+pr t66 > t67
+pr t68 > t70
+pr t69 > t70
+pr t71 > t72
+pr t73 > t74
+pr t73 > t75
+net bz

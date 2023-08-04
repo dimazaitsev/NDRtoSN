@@ -1,0 +1,35 @@
+tr t0 p2?-1 p5 -> p2 
+tr t1 p1?-1 p2?-1 p6 -> p2 
+tr t2 p0 p6?-1 -> 
+tr t3 p4 p6?-1 -> p6 
+tr t4 p1*2 p5?-1 -> p7 
+tr t5 p5?-1 p8 -> p5 
+tr t6 p1 p8?-1 p10 -> p9 
+tr t7 p8?-1 p11 -> p8 
+tr t8 p0 p10?-1 p11?-1 -> p3 p12 
+tr t9 p0 p9?-1 p11?-1 -> p12 
+tr t10 p11?-1 p13 -> p11 
+tr t11 p7 p13?-1 -> p1 
+tr t12 p13?-1 p14 -> p13 
+tr t13 p12 p14?-1 -> p0*2 
+tr t14 p2 p9 p10?-1 p14?-1 -> p10 p14 
+tr t15 p2 p9?-1 p14?-1 -> p14 
+pl p2 (1)
+pl p4 (1)
+pl p5 (1)
+pl p6 (1)
+pl p8 (1)
+pl p10 (1)
+pl p11 (1)
+pl p13 (1)
+pl p14 (1)
+pr t1 > t0
+pr t2 > t3
+pr t4 > t5
+pr t6 > t7
+pr t8 > t10
+pr t9 > t10
+pr t11 > t12
+pr t13 > t14
+pr t13 > t15
+net bz

@@ -1,0 +1,125 @@
+tr t0 p1?-1 p2 -> p1 
+tr t1 p0 p2?-1 p47 -> p5 
+tr t2 p2?-1 p3 -> p2 
+tr t3 p0?-1 p3?-1 p4 -> p3 
+tr t4 p3?-1 p6 -> p3 
+tr t5 p4?-1 p5 -> p0 p47 
+tr t6 p5 p6?-1 -> p0 p47 
+tr t7 p6?-1 p16 -> p6 
+tr t8 p4?-1 p7 -> p4 
+tr t9 p7?-1 p47*2 -> p8 
+tr t10 p7?-1 p14 -> p7 
+tr t11 p9 p14?-1 -> p10*2 
+tr t12 p11 p14?-1 -> p14 
+tr t13 p10 p11?-1 -> p9 
+tr t14 p11?-1 p12 -> p11 
+tr t15 p12?-1 p47 -> p9 
+tr t16 p12?-1 p13 -> p12 
+tr t17 p8 p13?-1 -> p47 
+tr t18 p1 p13?-1 -> p13 p15 
+tr t19 p15?-1 p16?-1 p24 -> p16 
+tr t20 p16?-1 p17 -> p16 
+tr t21 p9*2 p17?-1 -> p18 
+tr t22 p17?-1 p19 -> p17 
+tr t23 p19?-1 p47 -> p20 
+tr t24 p19?-1 p21 -> p19 
+tr t25 p20 p21?-1 -> p47*2 
+tr t26 p21?-1 p22 -> p21 
+tr t27 p9 p22?-1 -> p47 
+tr t28 p22?-1 p23 -> p22 
+tr t29 p18 p23?-1 -> p9 
+tr t30 p15 p23?-1 p24 -> p23 
+tr t31 p0 p24?-1 p47 -> p32 
+tr t32 p24?-1 p25 -> p24 
+tr t33 p0?-1 p25?-1 p26 -> p25 
+tr t34 p25?-1 p39 -> p25 
+tr t35 p32 p39?-1 -> p0 p47 
+tr t36 p27 p39?-1 -> p39 
+tr t37 p26?-1 p32 -> p0 
+tr t38 p26?-1 p27 -> p26 p28 
+tr t39 p27?-1 p45 -> p44*2 
+tr t40 p27?-1 p29 -> p27 
+tr t41 p29?-1 p44 -> p45 
+tr t42 p29?-1 p30 -> p29 
+tr t43 p28 p30?-1 -> p45 
+tr t44 p30?-1 p31 -> p30 
+tr t45 p15?-1 p31?-1 p40 -> p31 
+tr t46 p31?-1 p33 -> p31 
+tr t47 p9*2 p33?-1 -> p38 
+tr t48 p33?-1 p34 -> p33 
+tr t49 p34?-1 p47 -> p46*2 
+tr t50 p34?-1 p35 -> p34 
+tr t51 p35?-1 p46 -> p47 
+tr t52 p35?-1 p36 -> p35 
+tr t53 p9 p36?-1 -> p47 
+tr t54 p36?-1 p37 -> p36 
+tr t55 p37?-1 p38 -> p9 
+tr t56 p15 p24 p37?-1 -> p37 
+tr t57 p40?-1 p47 -> p43 
+tr t58 p40?-1 p42 -> p40 
+tr t59 p0 p42?-1 -> 
+tr t60 p41 p42?-1 -> p42 
+pl p0 (789123)
+pl p2 (1)
+pl p3 (1)
+pl p4 (1)
+pl p6 (1)
+pl p7 (1)
+pl p11 (1)
+pl p12 (1)
+pl p13 (1)
+pl p14 (1)
+pl p16 (1)
+pl p17 (1)
+pl p19 (1)
+pl p21 (1)
+pl p22 (1)
+pl p23 (1)
+pl p24 (1)
+pl p25 (1)
+pl p26 (1)
+pl p27 (1)
+pl p29 (1)
+pl p30 (1)
+pl p31 (1)
+pl p33 (1)
+pl p34 (1)
+pl p35 (1)
+pl p36 (1)
+pl p37 (1)
+pl p39 (1)
+pl p40 (1)
+pl p41 (1)
+pl p42 (1)
+pl p47 (98765432)
+pr t1 > t2
+pr t3 > t4
+pr t5 > t8
+pr t6 > t7
+pr t9 > t10
+pr t11 > t12
+pr t13 > t14
+pr t15 > t16
+pr t17 > t18
+pr t19 > t20
+pr t21 > t22
+pr t23 > t24
+pr t25 > t26
+pr t27 > t28
+pr t29 > t30
+pr t31 > t32
+pr t33 > t34
+pr t35 > t36
+pr t37 > t38
+pr t39 > t40
+pr t41 > t42
+pr t43 > t44
+pr t45 > t46
+pr t47 > t48
+pr t49 > t50
+pr t51 > t52
+pr t53 > t54
+pr t55 > t56
+pr t57 > t58
+pr t59 > t60
+net bz

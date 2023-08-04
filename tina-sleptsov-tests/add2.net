@@ -1,0 +1,58 @@
+tr t0 p8 p11?-1 -> p10 
+tr t1 p22 p25?-1 -> p24 
+tr t2 p9 p11?-1 -> p10 
+tr t3 p8?-1 p9?-1 p11?-1 p12 -> p11 
+tr t4 p3 p14?-1 -> p8 p13 
+tr t5 p13 p15?-1 -> p3 
+tr t6 p3?-1 p14?-1 p15 -> p14 
+tr t7 p13?-1 p15?-1 p16 -> p15 
+tr t8 p4 p18?-1 -> p9 p17 
+tr t9 p17 p19?-1 -> p4 
+tr t10 p4?-1 p18?-1 p19 -> p18 
+tr t11 p17?-1 p19?-1 p20 -> p19 
+tr t12 p0?-1 p14 p18 -> p0 
+tr t13 p11 p16?-1 p20?-1 -> p16 p20 
+tr t14 p10 p21?-1 -> p5 
+tr t15 p5 p12?-1 -> 
+tr t16 p5?-1 p12?-1 p21 -> p12 
+tr t17 p1 p10?-1 p21?-1 -> p21 
+tr t18 p23 p25?-1 -> p24 
+tr t19 p22?-1 p23?-1 p25?-1 p26 -> p25 
+tr t20 p5 p28?-1 -> p22 p27 
+tr t21 p27 p29?-1 -> p5 
+tr t22 p5?-1 p28?-1 p29 -> p28 
+tr t23 p27?-1 p29?-1 p30 -> p29 
+tr t24 p6 p32?-1 -> p23 p31 
+tr t25 p31 p33?-1 -> p6 
+tr t26 p6?-1 p32?-1 p33 -> p32 
+tr t27 p31?-1 p33?-1 p34 -> p33 
+tr t28 p1?-1 p28 p32 -> p1 
+tr t29 p25 p30?-1 p34?-1 -> p30 p34 
+tr t30 p24 p35?-1 -> p7 
+tr t31 p7 p26?-1 -> 
+tr t32 p7?-1 p26?-1 p35 -> p26 
+tr t33 p2 p24?-1 p35?-1 -> p35 
+pl p1 (1)
+pl p2 (1)
+pl p3 (2)
+pl p4 (8)
+pl p6 (5)
+pl p11 (1)
+pl p12 (1)
+pl p14 (1)
+pl p15 (1)
+pl p16 (1)
+pl p18 (1)
+pl p19 (1)
+pl p20 (1)
+pl p21 (1)
+pl p25 (1)
+pl p26 (1)
+pl p28 (1)
+pl p29 (1)
+pl p30 (1)
+pl p32 (1)
+pl p33 (1)
+pl p34 (1)
+pl p35 (1)
+net bz

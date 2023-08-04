@@ -1,0 +1,70 @@
+tr t0 p0 p15 -> p1 p2 p4 p10 p34 p35 p36 
+tr t1 p2 p10 p11 -> p3 p4 p7 
+tr t2 p3 p7 p11 -> p33 
+tr t3 p2 p8 p10 -> p0 
+tr t4 p4 -> p6 
+tr t5 p6 -> p12 p17 
+tr t6 p3 p7 p8 -> p13 
+tr t7 p4 p10 p15 -> p8 p10 p15 
+tr t8 p6 p7 p9 p16 -> p5 p6 p7 p14 
+tr t9 p1 p6 p10 p16 -> p5 p6 p10 p15 
+tr t10 p4 p7 p14 -> p7 p8 p14 
+tr t11 p13 p14 -> p0 p9 
+tr t12 p12 p19 -> p11 
+tr t13 p5 p17 -> p16 p18 
+tr t14 p5 p18 -> p16 p19 
+tr t15 p20 p35 -> p21 p22 p24 p30 p56 p57 p58 
+tr t16 p22 p30 p31 -> p23 p24 p27 
+tr t17 p23 p27 p31 -> p55 
+tr t18 p22 p28 p30 -> p20 
+tr t19 p24 -> p26 
+tr t20 p26 -> p32 p37 
+tr t21 p23 p27 p28 -> p33 
+tr t22 p24 p30 p35 -> p28 p30 p35 
+tr t23 p26 p27 p29 p36 -> p25 p26 p27 p34 
+tr t24 p21 p26 p30 p36 -> p25 p26 p30 p35 
+tr t25 p24 p27 p34 -> p27 p28 p34 
+tr t26 p33 p34 -> p20 p29 
+tr t27 p32 p41 -> p31 
+tr t28 p14 p37 -> p9 p38 
+tr t29 p15 p25 p38 -> p1 p4 p10 p36 p39 
+tr t30 p8 p10 p39 -> p38 
+tr t31 p10 p11 p39 -> p4 p7 p40 
+tr t32 p7 p8 p40 -> p37 
+tr t33 p7 p11 p40 -> p41 
+tr t34 p42 p57 -> p43 p44 p46 p52 p65 p66 p67 
+tr t35 p44 p52 p53 -> p45 p46 p49 
+tr t36 p45 p49 p53 -> p64 
+tr t37 p44 p50 p52 -> p42 
+tr t38 p46 -> p48 
+tr t39 p48 -> p54 p59 
+tr t40 p45 p49 p50 -> p55 
+tr t41 p46 p52 p57 -> p50 p52 p57 
+tr t42 p48 p49 p51 p58 -> p47 p48 p49 p56 
+tr t43 p43 p48 p52 p58 -> p47 p48 p52 p57 
+tr t44 p46 p49 p56 -> p49 p50 p56 
+tr t45 p55 p56 -> p42 p51 
+tr t46 p54 p63 -> p53 
+tr t47 p34 p59 -> p29 p60 
+tr t48 p35 p47 p60 -> p21 p24 p30 p58 p61 
+tr t49 p28 p30 p61 -> p60 
+tr t50 p30 p31 p61 -> p24 p27 p62 
+tr t51 p27 p28 p62 -> p59 
+tr t52 p27 p31 p62 -> p63 
+pl p13 (1)
+pl p14 (2)
+pl p15 (2)
+pl p16 (2)
+pr t7 > t4
+pr t8 > t5
+pr t9 > t5
+pr t10 > t4
+pr t22 > t19
+pr t23 > t20
+pr t24 > t20
+pr t25 > t19
+pr t41 > t38
+pr t42 > t39
+pr t43 > t39
+pr t44 > t38
+net bz
