@@ -1,0 +1,13 @@
+Some tests of Sleptsov nets in Tina .net format, computing sequential sums, products, polynomials, matrix multiplications, obtained using generators from
+https://github.com/zhangq9919/Sleptsov-net-processor
+https://github.com/HfZhao1998/Compiler-and-Linker-of-Sleptsov-net-Program
+
+Example:
+
+gen_pol 25 pol25.hsn
+
+HSNtoLSN pol25.hsn pol25.lsn
+
+SNVM -lsntonet pol25.lsn pol25.net
+
+daze@acm.org
