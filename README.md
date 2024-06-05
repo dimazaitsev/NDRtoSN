@@ -30,7 +30,7 @@ Compatibility:
 
 `SN-VM-GPU` and `MSN` file format according to https://github.com/tishtri/SN-VM-GPU
 
-`SNC_ArduinoIDE` generates SN declarations in the form of C language sn.h file for https://github.com/dimazaitsev/SNC_ArduinoIDE
+`SNC_ArduinoIDE` SN declarations in the form of C language sn.h file for https://github.com/dimazaitsev/SNC_ArduinoIDE
 
 To build `NDRtoSN`, files for work with abstract lists al.h and al.c should be downloaded from https://github.com/dazeorgacm/ts
 
