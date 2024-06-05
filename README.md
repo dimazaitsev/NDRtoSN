@@ -30,6 +30,8 @@ Compatibility:
 
 `SN-VM-GPU` and `MSN` file format according to https://github.com/tishtri/SN-VM-GPU
 
+`SNC_ArduinoIDE` generates SN declarations in the form of C language sn.h file for https://github.com/dimazaitsev/SNC_ArduinoIDE
+
 To build `NDRtoSN`, files for work with abstract lists al.h and al.c should be downloaded from https://github.com/dazeorgacm/ts
 
 
@@ -38,9 +40,11 @@ Command line format:
 
    >NDRtoSN NDR_file_name LSN_file_name 
    
-   >NDRtoSN NDR_file_name HSN_file_name 
+   >NDRtoSN NDR_file_name HSN_file_name
+
+   >NDRtoSN NDR_file_name H_file_name *
    
-File type HSN/LSN is chosen based on the presence of transition substitution labels.
+File type HSN/LSN is chosen based on the presence of transition substitution labels. Insert any string as the third parameter to generate SN declarations in the form of C language sn.h file. 
    
    
 Examples of command lines: 
@@ -49,6 +53,8 @@ Examples of command lines:
    >NDRtoSN fmul.ndr fmul.lsn
    
    >NDRtoSN add2.ndr add2.hsn
+
+   >NDRtoSN add2.ndr sn.h h
   
   
 Transition substitution label:
