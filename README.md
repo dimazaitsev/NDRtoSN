@@ -42,7 +42,7 @@ Command line format:
    
    >NDRtoSN NDR_file_name HSN_file_name
 
-   >NDRtoSN NDR_file_name H_file_name *
+   >NDRtoSN NDR_file_name -c H_file_name *
    
 File type HSN/LSN is chosen based on the presence of transition substitution labels. Insert any string as the third parameter to generate SN declarations in the form of C language sn.h file. 
    
