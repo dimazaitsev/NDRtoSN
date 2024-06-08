@@ -75,7 +75,19 @@ i,o,s,f - labels of place type for place mapping: input, otput, start, finish, r
 hpname - name of HSN place
 
 lpnum - number of LSN place
-   
+
+
+Tina plugins:
+-------------
+
+Now we can use NDRtoSN as Tina plugin accessible from Tools menu:
+
+1) Copy NDRtoSN to Tina bin directory
+
+2) Copy NDRtoSN.tcl to Tina bin/plugins directory
+
+3) Append ndmount+ to Tina bin/plugins/ndmount file
+
    
 References: 
 ----------- 
